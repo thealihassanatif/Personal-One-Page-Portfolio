@@ -1,4 +1,5 @@
 import grainImage from "@/assets/images/grain.jpg";
+import grainImage from "@/assets/images/grain.jpg";
 import { twMerge } from "tailwind-merge";
 
 export const Card = ({
