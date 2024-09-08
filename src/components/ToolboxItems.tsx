@@ -1,3 +1,4 @@
+import React from "react";
 import { TechIcon } from "./TechIcon";
 
 export const toolboxItems = ({
@@ -5,7 +6,7 @@ export const toolboxItems = ({
 }: {
   toolboxItems: {
     title: string;
-    iconType: string;
+    iconType: React.ElementType;
   }[];
 }) => {
   return (
